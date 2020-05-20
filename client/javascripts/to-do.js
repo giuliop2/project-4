@@ -12,6 +12,8 @@ let controller = function() {
       $(".comments").append($new_comment);
       //$new_comment.fadeIn();
       $(".comment-input input").val("");
+
+      console.log($(".comments").html());
     }
   };
 
